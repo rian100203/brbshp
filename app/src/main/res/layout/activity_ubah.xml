@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.UbahActivity"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    >
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UBAH DATA BARBERSHOP"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan nama Barbershop"
+        />
+
+    <EditText
+        android:id="@+id/et_foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan link foto Barbershop"
+        />
+
+    <EditText
+        android:id="@+id/et_deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan deskripsi Barbershop"
+        />
+
+    <EditText
+        android:id="@+id/et_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan lokasi Barbershop"
+        />
+
+    <EditText
+        android:id="@+id/et_koordinat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan koordinat Barbershop"
+        />
+
+    <Button
+        android:id="@+id/btn_ubah"
+        android:text="Ubah Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
